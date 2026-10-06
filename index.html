@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOFIE_OS v4.4 // MAIN_FRAME</title>
+    <title>BAYAN_OS v4.4 // MAIN_FRAME</title>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -166,7 +166,7 @@
     <!-- MAIN WINDOW INTERFACE -->
     <div class="window" id="main-window" style="display: none;">
         <div class="title-bar">
-            <span>SOFIE_OS // SECURE_VAULT_v4.4</span>
+            <span>BAYAN_OS // SECURE_VAULT_v4.4</span>
             <div class="title-controls">
                 <span>[ _ ]</span><span>[ 🗖 ]</span><span>[ X ]</span>
             </div>
@@ -203,7 +203,7 @@
                 <div id="error-msg" style="color: #ff007f; margin-top: 15px; display: none;">ACCESS DENIED.</div>
             </div>
 
-            <!-- TAB 2: WHY SOFIE -->
+            <!-- TAB 2: WHY BAYAN -->
             <div id="tab-reasons" class="tab-content">
                 <h2 style="color: #ff007f; font-size: 28px; margin-bottom: 15px; text-shadow: 2px 2px #00ffcc;">// SYSTEM DIAGNOSTICS: </h2>
                 <div class="ascii-art">
@@ -328,7 +328,7 @@
 
         // MATRIX BACKGROUND
         const matrixContainer = document.getElementById('matrix');
-        const chars = "SOFIE<3010198276*#@!LOVE[]/\\";
+        const chars = "BAYAN<3010198276*#@!LOVE[]/\\";
         for (let i = 0; i < 18; i++) {
             const col = document.createElement('div');
             col.classList.add('matrix-column');
@@ -346,7 +346,7 @@
         const passInput = document.getElementById('password-input');
         passInput.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
-                if (passInput.value.toLowerCase() === 'niggita') {
+                if (passInput.value.toLowerCase() === 'mommy') {
                     document.getElementById('tab-menu').style.display = 'flex';
                     switchTab('minigame');
                     document.getElementById('status-text').innerText = "STATUS: FULL ACCESS GRANTED";
@@ -383,17 +383,17 @@
         }
 
         const memes = [
-            "> \"(dead picture of your body in codm).\"",
+            "> backyard bigger than bahrain",
             "> Error 404: moment of aws not being funny not found.",
             "> 67.",
-            "> choo choo feet train? :)"
+            "> I love you"
         ];
         function nextMeme() {
             const randomMeme = memes[Math.floor(Math.random() * memes.length)];
             document.getElementById('meme-display').innerText = randomMeme;
         }
 
-        const asciiSymbols = ['<3', '[+]', '#*#', '(^_^)', '///', '===', '{v}'];
+        const asciiSymbols = ['<3', '[+]', '#*#', '(^_^)', '///', '===', '{v}', '676767'];
         function triggerAsciiRain() {
             setInterval(() => {
                 const p = document.createElement('div');
